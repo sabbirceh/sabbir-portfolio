@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import pdf from "../../Assets/CV_Sabbir_Salehin.pdf";
 import Particle from "../Particle";
@@ -34,11 +34,9 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
+        <object data="http://africau.edu/images/default/sample.pdf" type="application/pdf" width="100%" height="100%">
+      <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
+  </object>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
