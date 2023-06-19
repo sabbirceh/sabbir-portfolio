@@ -2,17 +2,17 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
   DiGit,
+  DiJavascript1,
+  DiMongodb,
+  DiNodejs,
+  DiPython,
+  DiReact,
 } from "react-icons/di";
 import {
-  SiPytorch,
-  SiFirebase,
+  Si3M,
   SiNextdotjs,
+  SiPytorch,
 } from "react-icons/si";
 
 function Techstack() {
@@ -40,7 +40,7 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <Si3M />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
