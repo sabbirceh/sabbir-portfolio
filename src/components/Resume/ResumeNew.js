@@ -1,4 +1,4 @@
-import pdf from "https://drive.google.com/u/0/uc?id=1JWVVZW07hbfF26zlj1LwMvuWTS4CfDFW&export=downloa";
+import pdf from "https://raw.githubusercontent.com/sabbirceh/sabbirceh/0d99ac6c47b1b900cbbc984abd8d98315b946c8e/CV_Sabbir_Salehin.pdf";
 import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
@@ -8,7 +8,8 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Particle from "../Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink = "https://drive.google.com/u/0/uc?id=1JWVVZW07hbfF26zlj1LwMvuWTS4CfDFW&export=download";
+const resumeLink =
+  "https://raw.githubusercontent.com/sabbirceh/sabbirceh/0d99ac6c47b1b900cbbc984abd8d98315b946c8e/CV_Sabbir_Salehin.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
