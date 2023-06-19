@@ -34,10 +34,10 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <object data="http://africau.edu/images/default/sample.pdf" type="application/pdf" width="100%" height="100%">
-      <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
-  </object>
+        <iframe src="https://drive.google.com/file/d/1JWVVZW07hbfF26zlj1LwMvuWTS4CfDFW/preview" width="640" height="480" allow="autoplay"></iframe>
 
+
+        
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
