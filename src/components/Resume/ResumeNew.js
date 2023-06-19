@@ -31,7 +31,7 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <iframe src="https://drive.google.com/file/d/1JWVVZW07hbfF26zlj1LwMvuWTS4CfDFW/preview" width="640" height="1900" border="1px" scrolling="yes" allow="autoplay"></iframe>
+        <iframe src="https://drive.google.com/file/d/1JWVVZW07hbfF26zlj1LwMvuWTS4CfDFW/preview" width="640" height="1800" border="1px" scrolling="yes" allow="autoplay"></iframe>
 
 
         
