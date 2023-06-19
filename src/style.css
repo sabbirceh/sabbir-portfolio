@@ -741,3 +741,13 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+.iframe {
+  border: 1px;
+}
+
+iframe {
+  border: 1px;
+}
+
