@@ -1,4 +1,4 @@
-import pdf from "https://github.com/sabbirceh/sabbirceh/raw/main/CV_Sabbir_Salehin.pdf";
+import pdf from "https://raw.githubusercontent.com/sabbirceh/sabbirceh/main/CV_Sabbir_Salehin.pdf";
 import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
@@ -9,7 +9,7 @@ import Particle from "../Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/sabbirceh/sabbirceh/raw/main/CV_Sabbir_Salehin.pdf";
+  "https://raw.githubusercontent.com/sabbirceh/sabbirceh/main/CV_Sabbir_Salehin.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
